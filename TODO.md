@@ -1,0 +1,2 @@
+- [x] Update train_cnn_model to include train_test_split, train on train data, evaluate on test data, and print metrics (accuracy, precision, recall, F1-score).
+- [x] Update train_proxy_model to print a full classification report in addition to accuracy.

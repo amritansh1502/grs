@@ -12,8 +12,8 @@ app.use(express.json());
 
 // --- 2. SPOTIFY API HELPERS (FINAL CORRECTED VERSION) ---
 
-const SPOTIFY_TOKEN_URL = 'http://googleusercontent.com/spotify.com/api/token';
-const SPOTIFY_API_BASE_URL = 'http://googleusercontent.com/spotify.com/v1';
+const SPOTIFY_TOKEN_URL = 'https://accounts.spotify.com/api/token';
+const SPOTIFY_API_BASE_URL = 'https://api.spotify.com/v1';
 const ML_API_URL = process.env.PYTHON_ML_API_URL;
 
 // These must match the order in your Python API
